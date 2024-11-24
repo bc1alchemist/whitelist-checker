@@ -25,10 +25,10 @@ export default function Home() {
     });
     let useradd = addr.toLowerCase();
     if (loweracc.includes(useradd)) {
-      setMSG(<p className="sm:text-xl text-lg text-green-600">Whitelisted</p>);
+      setMSG(<p className="sm:text-xl text-lg text-green-600">You are Coonlisted !</p>);
     } else {
       setMSG(
-        <p className="sm:text-xl text-lg text-red-500">Not Whitelisted</p>
+        <p className="sm:text-xl text-lg text-red-500">You're not Coonlisted !</p>
       );
     }
     if (String(addr).length < 42) {
