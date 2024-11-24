@@ -28,7 +28,7 @@ export default function Home() {
       setMSG(<p className="sm:text-xl text-lg text-green-600">You are Coonlisted !</p>);
     } else {
       setMSG(
-        <p className="sm:text-xl text-lg text-red-500">You're not Coonlisted !</p>
+        <p className="sm:text-xl text-lg text-red-500">You are not Coonlisted !</p>
       );
     }
     if (String(addr).length < 42) {
