@@ -47,7 +47,7 @@ export default function Home() {
   return (
     <div className='flex flex-col min-h-screen justify-center items-center bg-[url("/assets/bg.png")] bg-center bg-cover'>
       <Head>
-        <title>Whitelist Checker</title>
+        <title>Coonlist Checker</title>
         <meta name="description" content="Whitelist Checker" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
